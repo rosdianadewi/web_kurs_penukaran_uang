@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Nama    : Rosdiana Dewi -->
+    <!-- Kelas   : K-1 -->
+    <!-- NIM     : 210511173 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Penukaran Uang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Logo.jpg" alt="Logo" height="200px">
+        <h1>Kurs Penukaran Uang</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Rates.html">Rates</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Konversi Mata Uang</h2>
+        <div id="converter">
+            <input type="number" id="amount" placeholder="Masukkan jumlah uang">
+            <select id="currency">
+                <option value="0.00005">IDR to EUR</option>
+                <option value="17400">EUR to IDR</option>
+                <option value="0.000063">IDR to USD</option>
+                <option value="15900">USD to IDR</option>
+                <option value="0.0098">IDR to JPY</option>
+                <option value="102.57">JPY to IDR</option>
+            </select>
+            <button onclick="convertCurrency()">Convert</button>
+            <p id="result"></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Currency Exchange. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
