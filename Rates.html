@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange Rates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Currency Exchange Rates</h1>
+    </header>
+    <main>
+        <h2 id="rates">Today's Exchange Rates</h2>
+        <table>
+            <tr>
+                <th>Currency</th>
+                <th>Buy Rate</th>
+                <th>Sell Rate</th>
+            </tr>
+            <tr>
+                <td>USD</td>
+                <td>15500 IDR</td>
+                <td>15900 IDR</td>
+            </tr>
+            <tr>
+                <td>EUR</td>
+                <td>17000 IDR</td>
+                <td>17400 IDR</td>
+            </tr>
+            <tr>
+                <td>JPY</td>
+                <td>100 IDR</td>
+                <td>102.57 IDR</td>
+            </tr>
+        </table>
+        <p>Note: Exchange rates are subject to change without prior notice.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Currency Exchange. All rights reserved.</p>
+    </footer>
+</body>
+</html>
